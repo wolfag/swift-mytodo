@@ -14,6 +14,7 @@
 		755A2056294FFC0400EC11C0 /* TaskModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 755A2054294FFC0400EC11C0 /* TaskModel.xcdatamodeld */; };
 		755A2058294FFCB100EC11C0 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755A2057294FFCB100EC11C0 /* CoreDataManager.swift */; };
 		755A205A2950048B00EC11C0 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755A20592950048B00EC11C0 /* Priority.swift */; };
+		D6CCF9EF2954204E003F1816 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CCF9EE2954204E003F1816 /* TaskRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		755A2055294FFC0400EC11C0 /* Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Task.xcdatamodel; sourceTree = "<group>"; };
 		755A2057294FFCB100EC11C0 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		755A20592950048B00EC11C0 /* Priority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Priority.swift; sourceTree = "<group>"; };
+		D6CCF9EE2954204E003F1816 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				755A2054294FFC0400EC11C0 /* TaskModel.xcdatamodeld */,
 				755A2046294FFBF000EC11C0 /* MyTodoApp.swift */,
 				755A2048294FFBF000EC11C0 /* ContentView.swift */,
+				D6CCF9EE2954204E003F1816 /* TaskRow.swift */,
 				755A204A294FFBF100EC11C0 /* Assets.xcassets */,
 				755A204C294FFBF100EC11C0 /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 				755A2056294FFC0400EC11C0 /* TaskModel.xcdatamodeld in Sources */,
 				755A2049294FFBF000EC11C0 /* ContentView.swift in Sources */,
 				755A2058294FFCB100EC11C0 /* CoreDataManager.swift in Sources */,
+				D6CCF9EF2954204E003F1816 /* TaskRow.swift in Sources */,
 				755A205A2950048B00EC11C0 /* Priority.swift in Sources */,
 				755A2047294FFBF000EC11C0 /* MyTodoApp.swift in Sources */,
 			);

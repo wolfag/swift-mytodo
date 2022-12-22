@@ -90,18 +90,11 @@ struct ContentView: View {
 
                 List {
                     ForEach(allTasks) { task in
-
-                        Button {
+                        TaskRow(
+                            color: colorTask(task.priority ?? ""),
+                            isDone: task.isDone,
+                            title: task.title ?? "") {
                             doneTask(task)
-                        } label: {
-                            HStack {
-                                Circle()
-                                    .frame(width: 15, height: 15)
-                                    .foregroundColor(colorTask(task.priority ?? ""))
-                                Text(task.title ?? "-")
-                                    .foregroundColor(colorTask(task.priority ?? ""))
-                                    .strikethrough(task.isDone, color: .black)
-                            }
                         }
                     }.onDelete(perform: deleteTask)
                 }
